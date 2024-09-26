@@ -1,0 +1,93 @@
+extends layout
+
+block content
+  .row.page-header(style="margin-bottom: 20px;") 
+    .col-lg-12
+      h1(style="margin-top: 20px;") Apollo Diagnostics
+
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12.col-sm-6
+          p.rating
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star-empty
+            span.glyphicon.glyphicon-star-empty
+          p Apollo Diagnostics
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Opening hours
+            .panel-body
+              p Monday-Sunday 24/7 
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Facilities
+            .panel-body
+              span.label.label-warning 
+                span.glyphicon.glyphicon-ok 
+                | &nbsp;Diagnostics
+              | &nbsp; 
+              span.label.label-warning 
+                span.glyphicon.glyphicon-ok 
+                | &nbsp;Scanning
+              | &nbsp; 
+              span.label.label-warning 
+                span.glyphicon.glyphicon-ok 
+                | &nbsp;First-aid 
+              | &nbsp; 
+              span.label.label-warning 
+                span.glyphicon.glyphicon-ok 
+                | &nbsp;Pharmacy
+              | &nbsp; 
+              span.label.label-warning 
+                span.glyphicon.glyphicon-ok 
+                | &nbsp;Medical Services
+              | &nbsp; 
+        .col-xs-12.col-sm-6.location-map
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Location map
+            .panel-body
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.223396170842!2d78.54557607385239!3d17.401063583488458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9981242a64b9%3A0x731c027be31f8128!2sPERFECT%20HEALTH%20MEDICAL%20CENTER%20AND%20CLINICS!5e0!3m2!1sen!2sin!4v1727364449750!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/location/review/new') Add review
+              h2.panel-title Customer reviews
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                    span.reviewAuthor   S Neha
+                    small.reviewTimestamp   18 August 2024 
+                  .col-xs-12 
+                    p Apollo Diagnostics provided a seamless and professional experience, with punctual sample collection and timely report delivery. The staff’s courteous and skilled approach made the entire process comfortable and stress-free.
+              .row 
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    span.reviewAuthor    Y Yamini 
+                    small.reviewTimestamp   01 July 2024
+                  .col-xs-12 
+                    p Apollo Diagnostics impressed me with their efficient service and accurate results. The friendly staff and clean facilities made my visit pleasant and reassuring. 
+    .col-xs-12.col-md-3 
+      p.lead 
+        |Apollo Diagnostics is on Healthcare Appointment Scheduler as it has good facilities with doctors and medical services. 
+      p 
+        If you've been and you like it - or if you don't - please leave a review to help other people just like you.
+
