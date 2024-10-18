@@ -87,7 +87,7 @@ hr {
 
 mark {
   color: #000;
-  background: #ff0;
+  background: #001eff;
 }
 
 code,
@@ -141,7 +141,7 @@ figure {
 fieldset {
   padding: 0.35em 0.625em 0.75em;
   margin: 0 2px;
-  border: 1px solid #c0c0c0;
+  border: 1px solid #1b23b4;
 }
 
 legend {
@@ -239,7 +239,7 @@ table {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #3f31c1;
     page-break-inside: avoid;
   }
   thead {
@@ -304,9 +304,10 @@ html {
 body {
   font-family: "Cabin", Arial, sans-serif;
   font-size: 14px;
+
   line-height: 1.428571429;
-  color: #ffffff;
-  background-color: #108a93;
+  color: #593d29;
+  background-color: #dbd7d7;
 }
 
 input,
@@ -326,13 +327,13 @@ textarea {
 }
 
 a {
-  color: #e8d069;
+  color: #553620;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #debb27;
+  color: #5c300a;
   text-decoration: underline;
 }
 
@@ -437,7 +438,7 @@ cite {
 }
 
 .text-info {
-  color: #ffffff;
+  color:#553620;
 }
 
 .text-left {
@@ -483,7 +484,7 @@ h6 small,
 .h6 small {
   font-weight: normal;
   line-height: 1;
-  color: #bbbbbb;
+  color: #817373;
 }
 
 h1,
@@ -2196,8 +2197,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #ad1d28;
-  border-color: #ad1d28;
+  background-color:#65431c;
+  border-color: #000000;
 }
 
 .btn-primary:hover,
@@ -4699,8 +4700,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #ad1d28;
-  border-color: #911821;
+  background-color: #4a260c;
+  border-color: #000000;
 }
 
 .navbar-default .navbar-brand {
@@ -5213,13 +5214,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #382a5a;
 }
 
+
 .label-warning {
-  background-color: #debb27;
+  background-color: #7c766c;
 }
 
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #b6991c;
+  background-color: #33312a;
 }
 
 .label-danger {
@@ -5242,7 +5244,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #ad1d28;
+  background-color:#785858;
   border-radius: 10px;
 }
 
@@ -5265,7 +5267,7 @@ a.badge:focus {
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #ffffff;
-  background-color: #ad1d28;
+  background-color: #301dad;
 }
 
 .nav-pills > li > a > .badge {
@@ -5603,7 +5605,7 @@ a.thumbnail:focus {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: transparent;
-  border: 1px solid #0d747c;
+  border: 1px solid #451603;
 }
 
 .list-group-item:first-child {
@@ -5672,7 +5674,7 @@ a.list-group-item:focus {
 
 .panel {
   margin-bottom: 20px;
-  background-color: #13a0aa;
+  background-color: rgb(160 154 149 / 50%);
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -5832,13 +5834,13 @@ a.list-group-item:focus {
 }
 
 .panel-primary {
-  border-color: #ad1d28;
+  border-color: #1d5ead;
 }
 
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #ad1d28;
-  border-color: #ad1d28;
+  background-color: #72563f;
+  border-color: #000000;
 }
 
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
@@ -5925,8 +5927,8 @@ a.list-group-item:focus {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #0d747c;
-  border: 1px solid #0a565c;
+  background-color:#948b88;
+  border: 1px solid #000000;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -7297,7 +7299,7 @@ h6 {
 
 .has-success .help-block,
 .has-success .control-label {
-  color: #93e08b;
+  color: #707076;
 }
 
 .has-success .form-control,
@@ -7323,7 +7325,7 @@ legend {
 }
 
 .list-group-item {
-  background-color: #13a0aa;
+  background-color: #b8b3af;
 }
 
 .popover {
